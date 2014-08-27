@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.min.js"></script>
+</head>
+<body>
+  <div id="main">
+    <h1> Start-Page</h1>
+    <ul>
+      <li title="gmail.com"><span></span>GMail</li>
+      <li title="youtube.com"><span></span>YouTube</li>
+      <li title="github.com">GitHub</li>
+      <li title="bitbucket.org">BitBucket</li>
+      <li title="thepiratebay.se">The PirateBay</li>
+      <li title="dropbox.com">Dropbox</li>
+      <li title="en.wikipedia.org">Wikipedia</li>
+      <li title="facebook.com">Facebook</li>
+      <li title="tumblr.com">Tumblr</li>
+      <li title="twitter.com">Twitter</li>
+      <li title="soundcloud.com">SoundCloud</li>
+      <li title="deviantart.com">DeviantArt</li>
+    </ul>
+    <p><small>This is a very simple start page. Modify it with any text editor.<br/>Add icons and custom graphics to add some flavour!</small></p>
+    <p>&copy; 2014 Piotr Pokojowczyk</p>
+  </div>
+  
+  <script>
+    $('li').click(function(){
+      var dupa = $(this).attr('title');
+      window.open("//" + dupa);
+    });
+  </script>
+  
+</body>
+</html>
