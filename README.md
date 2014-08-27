@@ -2,6 +2,6 @@
 
 A simple start page for your browser.
 
-* Todo list:
+## Todo list:
 - Make generator in BASH,
 - Add icons.
