@@ -23,6 +23,15 @@
       <li title="soundcloud.com">SoundCloud</li>
       <li title="deviantart.com">DeviantArt</li>
     </ul>
+    <h2>Localhost</h2>
+    <ul>
+      <li title="localhost">localhost</li>
+      <li title="callcenter">callcenter</li>
+      <li title="portfolio2">portfolio2</li>
+      <li title="bitbucket-site">bitbucket</li>
+      <li title="koszulki">koszulki</li>
+      <li title="rysunki">rysunki</li>
+    </ul>
     <p><small>This is a very simple start page. Modify it with any text editor.<br/>Add icons and custom graphics to add some flavour!</small></p>
     <p>&copy; 2014 Piotr Pokojowczyk</p>
   </div>
@@ -30,7 +39,7 @@
   <script>
     $('li').click(function(){
       var dupa = $(this).attr('title');
-      window.open("//" + dupa);
+      window.open("http://" + dupa);
     });
   </script>
   
