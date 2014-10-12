@@ -1,11 +1,11 @@
-@import url(icons.ttf);
-
-fonts {
-  font-family: Icons; }
+@font-face {
+  font-family: Icons;
+  src: url(icons.ttf);
+}
 
 body {
   background: #ddd;
-  font-family: Ubuntu, Verdana, Arial, sans;
+  font-family: Icons, Ubuntu, Verdana, Arial, sans;
   color: #666; }
 
 #main {
